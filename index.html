@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- EDITA: título de tu sitio -->
+<title>TU LOGO | Plantilla vacía estilo DCMteam</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER / MENÚ — EDITA TUS ENLACES ============ -->
+<header class="header">
+  <!-- EDITA: cambia por tu logo -->
+  <a class="logo-text" href="index.html">TU&nbsp;LOGO</a>
+  <nav class="nav" id="nav">
+    <div class="dropdown">
+      <a href="trabajos.html">Trabajos ▾</a>
+      <div class="dropdown-menu">
+        <!-- EDITA: tus categorías -->
+        <a href="trabajos.html">Categoría 1</a>
+        <a href="trabajos.html">Categoría 2</a>
+        <a href="trabajos.html">Categoría 3</a>
+        <a href="trabajos.html">Categoría 4</a>
+        <a href="trabajos.html">Categoría 5</a>
+        <a href="trabajos.html">Categoría 6</a>
+      </div>
+    </div>
+    <a href="equipo.html">Equipo</a>
+    <a href="premios.html">Premios</a>
+    <a href="academica.html">Académica</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="social">
+    <!-- EDITA: tus redes -->
+    <a href="#">Fb</a><a href="#">Tw</a><a href="#">Yt</a>
+  </div>
+  <button class="btn-menu" onclick="toggleMenu()">☰</button>
+</header>
+
+<!-- ============ HERO CON VIDEO — EDITA VIDEO, TÍTULO Y BOTÓN ============ -->
+<section class="hero">
+  <!-- EDITA: pon tu video en /video/tu-video.mp4 o cambia por imagen -->
+  <video autoplay muted loop playsinline poster="https://picsum.photos/seed/hero-dcm/1600/900">
+    <source src="" type="video/mp4">
+  </video>
+  <div class="hero-content">
+    <!-- EDITA AQUÍ -->
+    <h1>TU FRASE PRINCIPAL AQUÍ</h1>
+    <p>Tu subtítulo aquí. Ej: Desarrollamos contenidos para múltiples plataformas.</p>
+    <a class="btn" href="trabajos.html">TU BOTÓN AQUÍ</a>
+  </div>
+</section>
+
+<!-- ============ LO NUEVO / TRABAJOS — DUPLICA LAS CARDS ============ -->
+<section class="seccion"><div class="container">
+  <div class="seccion-titulo">
+    <h2>Lo nuevo</h2>
+    <p><!-- EDITA: descripción de sección -->Tus proyectos destacados van aquí.</p>
+  </div>
+  <div class="grid-proyectos">
+    <!-- EDITA / DUPLICA: cada card enlaza a proyecto-1.html, proyecto-2.html... -->
+    <a class="card-proyecto" href="proyecto-1.html"><img src="https://picsum.photos/seed/p1/600/450" alt=""><span>TU PROYECTO 1</span></a>
+    <a class="card-proyecto" href="proyecto-2.html"><img src="https://picsum.photos/seed/p2/600/450" alt=""><span>TU PROYECTO 2</span></a>
+    <a class="card-proyecto" href="proyecto-3.html"><img src="https://picsum.photos/seed/p3/600/450" alt=""><span>TU PROYECTO 3</span></a>
+    <a class="card-proyecto" href="proyecto-1.html"><img src="https://picsum.photos/seed/p4/600/450" alt=""><span>TU PROYECTO 4</span></a>
+    <a class="card-proyecto" href="proyecto-2.html"><img src="https://picsum.photos/seed/p5/600/450" alt=""><span>TU PROYECTO 5</span></a>
+    <a class="card-proyecto" href="proyecto-3.html"><img src="https://picsum.photos/seed/p6/600/450" alt=""><span>TU PROYECTO 6</span></a>
+  </div>
+</div></section>
+
+<!-- ============ BANNER — EDITA IMAGEN EN styles.css (.banner) ============ -->
+<div class="banner"></div>
+
+<!-- ============ EQUIPO — EDITA / DUPLICA MIEMBROS ============ -->
+<section class="seccion seccion-oscura"><div class="container">
+  <div class="seccion-titulo">
+    <h2>El equipo</h2>
+    <p><!-- EDITA -->Tu descripción del equipo aquí.</p>
+  </div>
+  <div class="grid-equipo">
+    <!-- MIEMBRO VACÍO 1 — duplica para más -->
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/equipo1/500/500" alt="">
+      <h3>NOMBRE<small>APELLIDO / ROL</small></h3>
+      <p>TU BIO AQUÍ. Escribe 2-3 líneas sobre esta persona.</p>
+      <div class="links"><a href="#">Ln</a><a href="#">Tw</a><a href="#">Fb</a></div>
+    </div>
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/equipo2/500/500" alt="">
+      <h3>NOMBRE<small>APELLIDO / ROL</small></h3>
+      <p>TU BIO AQUÍ.</p>
+      <div class="links"><a href="#">Ln</a><a href="#">Tw</a></div>
+    </div>
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/equipo3/500/500" alt="">
+      <h3>NOMBRE<small>APELLIDO / ROL</small></h3>
+      <p>TU BIO AQUÍ.</p>
+      <div class="links"><a href="#">Fb</a></div>
+    </div>
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/equipo4/500/500" alt="">
+      <h3>NOMBRE<small>APELLIDO / ROL</small></h3>
+      <p>TU BIO AQUÍ.</p>
+      <div class="links"><a href="#">Ln</a></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ PREMIOS — EDITA ============ -->
+<section class="seccion"><div class="container">
+  <a class="premios-banner" href="premios.html">🏆 TU SECCIÓN PREMIOS — clic para editar</a>
+</div></section>
+
+<!-- ============ CLIENTES — EDITA LOGOS ============ -->
+<section class="seccion" style="padding-top:0"><div class="container">
+  <div class="seccion-titulo"><h2>Clientes</h2><p>Tu subtítulo aquí.</p></div>
+  <div class="grid-clientes">
+    <div>TU LOGO 1</div><div>TU LOGO 2</div><div>TU LOGO 3</div><div>TU LOGO 4</div>
+    <div>TU LOGO 5</div><div>TU LOGO 6</div><div>TU LOGO 7</div><div>TU LOGO 8</div>
+  </div>
+</div></section>
+
+<!-- ============ CARRUSEL antes del footer — enlaza a tus proyectos ============ -->
+<section class="seccion" style="padding-top:0"><div class="container">
+  <div class="carrusel-wrap">
+    <h3>Destacados →</h3><br>
+    <div class="carrusel" id="cHome">
+      <a class="card-proyecto" href="proyecto-1.html"><img src="https://picsum.photos/seed/p1/500/350" alt=""><span>TU PROYECTO 1</span></a>
+      <a class="card-proyecto" href="proyecto-2.html"><img src="https://picsum.photos/seed/p2/500/350" alt=""><span>TU PROYECTO 2</span></a>
+      <a class="card-proyecto" href="proyecto-3.html"><img src="https://picsum.photos/seed/p3/500/350" alt=""><span>TU PROYECTO 3</span></a>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ FOOTER / CONTACTO — EDITA ============ -->
+<footer class="footer"><div class="container footer-grid">
+  <div><h4>Contacto</h4><p>TU DIRECCIÓN<br>TU TELÉFONO<br>TU EMAIL</p></div>
+  <div><h4>Secciones</h4><p><a href="trabajos.html">Trabajos</a><br><a href="equipo.html">Equipo</a><br><a href="premios.html">Premios</a></p></div>
+  <div><h4>Legal</h4><p>TU INSTITUCIÓN<br>TU LOGO AQUÍ</p></div>
+</div><div class="container copy"><span>© <span id="anio">2026</span> TU NOMBRE</span><span><a href="index.html">Inicio</a></span></div></footer>
+<script src="app.js"></script>
+</body>
+</html>
