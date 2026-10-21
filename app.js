@@ -29,9 +29,22 @@ function headerScroll(){
   if(h) h.classList.toggle('scrolled', window.scrollY > 60);
 }
 
+// Oculta las flechas de un carrusel que tiene un solo item de referencia
+function ocultarFlechasInnecesarias(){
+  document.querySelectorAll('.carrusel-head').forEach(head=>{
+    const pista = head.parentElement.querySelector('.carrusel, .reels-track');
+    if(!pista) return;
+    const items = pista.children.length;
+    const btns = head.querySelector('.carrusel-btns');
+    if(btns) btns.style.display = items > 1 ? '' : 'none';
+  });
+}
+
 document.addEventListener('DOMContentLoaded', ()=>{
   const y = document.getElementById('anio');
   if(y) y.textContent = new Date().getFullYear();
+
+  ocultarFlechasInnecesarias();
 
   window.addEventListener('scroll', ()=>{
     parallaxScroll();
