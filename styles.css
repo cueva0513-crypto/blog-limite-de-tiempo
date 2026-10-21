@@ -50,7 +50,7 @@ ul{list-style:none}
 
 /* ===== HERO PARALLAX ===== */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;background:#000;overflow:hidden}
-.hero-parallax{position:absolute;inset:-12% 0;width:100%;background:url('imagenes/Portada.png') center/cover no-repeat;will-change:transform}
+.hero-parallax{position:absolute;inset:-12% 0;width:100%;background:url('imagenes/portada.jpg') center/cover no-repeat;will-change:transform}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.42) 45%,rgba(0,0,0,.88) 100%)}
 .hero-content{position:relative;z-index:2;max-width:900px;padding:120px 20px 70px}
 .hero-kicker{display:inline-block;border:1px solid var(--amarillo);color:var(--amarillo);font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:7px 18px;border-radius:99px;margin-bottom:22px}
@@ -144,7 +144,7 @@ ul{list-style:none}
 .reels-track > *{scroll-snap-align:start}
 
 /* Banner parallax */
-.banner{height:380px;background:url('imagenes/Portada.png') center/cover no-repeat fixed;display:flex;align-items:center;justify-content:center;position:relative}
+.banner{height:380px;background:url('imagenes/portada.jpg') center/cover no-repeat fixed;display:flex;align-items:center;justify-content:center;position:relative}
 .banner::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}
 .banner div{position:relative;z-index:2;text-align:center;color:#fff;padding:0 20px}
 .banner h2{font-size:clamp(22px,3.4vw,38px);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
@@ -158,10 +158,6 @@ ul{list-style:none}
 .miembro h3{margin:16px 0 2px;font-size:18px;font-weight:800}
 .miembro h3 small{display:block;font-weight:500;color:var(--amarillo);font-size:12px;letter-spacing:1.2px;text-transform:uppercase;margin-top:4px}
 .miembro p{font-size:13px;color:#b9b9b9;padding:0 16px;margin:10px 0}
-.miembro .links{display:flex;gap:8px;justify-content:center;font-size:11.5px;margin-top:12px}
-.miembro .links a{border:1px solid #3a3a3a;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;color:#ccc;transition:.25s}
-.miembro .links a svg{width:15px;height:15px;display:block}
-.miembro .links a:hover{background:var(--rojo);border-color:var(--rojo);color:#fff}
 
 /* ===== FOOTER ===== */
 .footer{background:#000;color:#b3b3b3;padding:58px 0 0}
@@ -183,7 +179,7 @@ ul{list-style:none}
 
 /* ===== PÁGINAS INTERNAS ===== */
 .cab-pagina{padding:150px 0 56px;background:var(--fondo);color:#fff;text-align:center;position:relative;overflow:hidden}
-.cab-pagina::after{content:"";position:absolute;inset:0;background:url('imagenes/Portada.png') center/cover no-repeat fixed;opacity:.16}
+.cab-pagina::after{content:"";position:absolute;inset:0;background:url('imagenes/portada.jpg') center/cover no-repeat fixed;opacity:.16}
 .cab-pagina > *{position:relative;z-index:2}
 .cab-pagina h1{font-size:clamp(26px,4.4vw,46px);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
 .cab-pagina h1 span{color:var(--amarillo)}
