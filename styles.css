@@ -163,11 +163,6 @@ ul{list-style:none}
 .miembro .links a svg{width:15px;height:15px;display:block}
 .miembro .links a:hover{background:var(--rojo);border-color:var(--rojo);color:#fff}
 
-/* Clientes */
-.grid-clientes{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.grid-clientes div{background:#f6f6f6;border-radius:8px;min-height:110px;display:flex;align-items:center;justify-content:center;color:#a5a5a5;font-weight:800;letter-spacing:1px;border:1px dashed #ccc;transition:.25s}
-.grid-clientes div:hover{background:#fff;border-color:var(--rojo);color:var(--rojo)}
-
 /* ===== FOOTER ===== */
 .footer{background:#000;color:#b3b3b3;padding:58px 0 0}
 .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px}
@@ -248,7 +243,6 @@ ul{list-style:none}
   .grid-proyectos,.grid-equipo{grid-template-columns:1fr 1fr}
   .grid-cards{grid-template-columns:1fr 1fr}
   .grid-reels{grid-template-columns:repeat(3,1fr)}
-  .grid-clientes{grid-template-columns:1fr 1fr}
   .cont-grid{grid-template-columns:1fr !important}
   .nav,.social{display:none}
   .btn-menu{display:block}
