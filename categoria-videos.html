@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videos | Al Límite del Tiempo | Al Límite del Tiempo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html"><span class="logo-text">Al <b>Límite</b><br><i>del Tiempo</i></span></a>
+  <nav class="nav" id="nav">
+    <div class="dropdown">
+      <a href="categorias.html">Categorías ▾</a>
+      <div class="dropdown-menu">
+        <a href="categoria-videos.html">Videos</a>
+        <a href="categoria-reels.html">Reels</a>
+        <a href="categoria-entrevistas.html">Entrevistas</a>
+        <a href="categoria-documentales.html">Documentales</a>
+        <a href="categoria-cronicas.html">Crónicas</a>
+        <a href="categoria-eventos.html">Eventos</a>
+      </div>
+    </div>
+    <a href="equipo.html">Equipo</a>
+    <a href="premios.html">Premios</a>
+    <a href="academica.html">Académica</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="social"><a href="#">Ig</a><a href="#">Yt</a><a href="#">Tk</a></div>
+  <button class="btn-menu" onclick="toggleMenu()">☰</button>
+</header>
+<div class="cab-pagina">
+  <h1>Videos <span>Piezas largas de producción propia, en formato horizontal 16:9</span></h1>
+  <p>Piezas largas de producción propia, en formato horizontal 16:9.</p>
+  <div class="filtros">
+    <a class="activo" href="categoria-videos.html">Videos</a>
+    <a href="categoria-reels.html">Reels</a>
+    <a href="categoria-entrevistas.html">Entrevistas</a>
+    <a href="categoria-documentales.html">Documentales</a>
+    <a href="categoria-cronicas.html">Crónicas</a>
+    <a href="categoria-eventos.html">Eventos</a>
+  </div>
+</div>
+<main>
+<div class="container"><div class="breadcrumb">
+  <a href="index.html">Inicio</a> / <a href="categorias.html">Categorías</a> / Videos
+</div></div>
+<section class="seccion"><div class="container">
+  <div class="carrusel-head">
+    <div><h3>Lo más visto</h3><p>Previews de YouTube en formato horizontal 16:9.</p></div>
+    <div class="carrusel-btns">
+      <button onclick="moverCarrusel('carruselCat',-1)">←</button>
+      <button onclick="moverCarrusel('carruselCat',1)">→</button>
+    </div>
+  </div>
+  <div class="carrusel" id="carruselCat">
+    <a class="card-video" href="contenido-1.html">
+      <div class="thumb">
+        <img src="https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg" alt="">
+        <div class="play"><span>▶</span></div>
+        <div class="dur">12:40</div>
+      </div>
+      <div class="info">
+        <div class="cat">Video</div>
+        <h4>TITULAR DE TU VIDEOS 1</h4>
+        <div class="meta">1.2K vistas · hace 3 días</div>
+      </div>
+    </a>
+    <a class="card-video" href="contenido-2.html">
+      <div class="thumb">
+        <img src="https://i.ytimg.com/vi/M7lc1UVf-VE/hqdefault.jpg" alt="">
+        <div class="play"><span>▶</span></div>
+        <div class="dur">12:40</div>
+      </div>
+      <div class="info">
+        <div class="cat">Video</div>
+        <h4>TITULAR DE TU VIDEOS 2</h4>
+        <div class="meta">1.2K vistas · hace 3 días</div>
+      </div>
+    </a>
+    <a class="card-video" href="contenido-3.html">
+      <div class="thumb">
+        <img src="https://i.ytimg.com/vi/jNQXAC9IVRw/hqdefault.jpg" alt="">
+        <div class="play"><span>▶</span></div>
+        <div class="dur">12:40</div>
+      </div>
+      <div class="info">
+        <div class="cat">Video</div>
+        <h4>TITULAR DE TU VIDEOS 3</h4>
+        <div class="meta">1.2K vistas · hace 3 días</div>
+      </div>
+    </a>
+    <a class="card-video" href="contenido-1.html">
+      <div class="thumb">
+        <img src="https://i.ytimg.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="">
+        <div class="play"><span>▶</span></div>
+        <div class="dur">12:40</div>
+      </div>
+      <div class="info">
+        <div class="cat">Video</div>
+        <h4>TITULAR DE TU VIDEOS 4</h4>
+        <div class="meta">1.2K vistas · hace 3 días</div>
+      </div>
+    </a>
+    <a class="card-video" href="contenido-2.html">
+      <div class="thumb">
+        <img src="https://i.ytimg.com/vi/ScMzIvxBSi4/hqdefault.jpg" alt="">
+        <div class="play"><span>▶</span></div>
+        <div class="dur">12:40</div>
+      </div>
+      <div class="info">
+        <div class="cat">Video</div>
+        <h4>TITULAR DE TU VIDEOS 5</h4>
+        <div class="meta">1.2K vistas · hace 3 días</div>
+      </div>
+    </a>
+  </div>
+</div></section>
+<section class="seccion subseccion" style="padding-top:0"><div class="container">
+  <div class="seccion-titulo"><h3 style="text-transform:uppercase;letter-spacing:1px">Todos los videos</h3></div>
+  <div class="grid-cards">
+      <a class="mini-card" href="contenido-1.html">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg" alt="">
+          <span class="play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="width:46px;height:46px;border-radius:50%;background:#d81f1a;color:#fff;display:flex;align-items:center;justify-content:center;padding-left:3px">▶</span></span>
+        </span>
+        <div class="body">
+          <div class="cat">Video</div>
+          <h3>TITULAR DE CONTENIDO 1</h3>
+          <p>Descripción breve de tu contenido. Edita este texto en el HTML.</p>
+          <div class="meta">1.2K vistas · hace 3 días</div>
+        </div>
+      </a>
+      <a class="mini-card" href="contenido-2.html">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/M7lc1UVf-VE/hqdefault.jpg" alt="">
+          <span class="play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="width:46px;height:46px;border-radius:50%;background:#d81f1a;color:#fff;display:flex;align-items:center;justify-content:center;padding-left:3px">▶</span></span>
+        </span>
+        <div class="body">
+          <div class="cat">Video</div>
+          <h3>TITULAR DE CONTENIDO 2</h3>
+          <p>Descripción breve de tu contenido. Edita este texto en el HTML.</p>
+          <div class="meta">1.2K vistas · hace 3 días</div>
+        </div>
+      </a>
+      <a class="mini-card" href="contenido-3.html">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/jNQXAC9IVRw/hqdefault.jpg" alt="">
+          <span class="play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="width:46px;height:46px;border-radius:50%;background:#d81f1a;color:#fff;display:flex;align-items:center;justify-content:center;padding-left:3px">▶</span></span>
+        </span>
+        <div class="body">
+          <div class="cat">Video</div>
+          <h3>TITULAR DE CONTENIDO 3</h3>
+          <p>Descripción breve de tu contenido. Edita este texto en el HTML.</p>
+          <div class="meta">1.2K vistas · hace 3 días</div>
+        </div>
+      </a>
+      <a class="mini-card" href="contenido-1.html">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="">
+          <span class="play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="width:46px;height:46px;border-radius:50%;background:#d81f1a;color:#fff;display:flex;align-items:center;justify-content:center;padding-left:3px">▶</span></span>
+        </span>
+        <div class="body">
+          <div class="cat">Video</div>
+          <h3>TITULAR DE CONTENIDO 4</h3>
+          <p>Descripción breve de tu contenido. Edita este texto en el HTML.</p>
+          <div class="meta">1.2K vistas · hace 3 días</div>
+        </div>
+      </a>
+      <a class="mini-card" href="contenido-2.html">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/ScMzIvxBSi4/hqdefault.jpg" alt="">
+          <span class="play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="width:46px;height:46px;border-radius:50%;background:#d81f1a;color:#fff;display:flex;align-items:center;justify-content:center;padding-left:3px">▶</span></span>
+        </span>
+        <div class="body">
+          <div class="cat">Video</div>
+          <h3>TITULAR DE CONTENIDO 5</h3>
+          <p>Descripción breve de tu contenido. Edita este texto en el HTML.</p>
+          <div class="meta">1.2K vistas · hace 3 días</div>
+        </div>
+      </a>
+      <a class="mini-card" href="contenido-3.html">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="">
+          <span class="play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="width:46px;height:46px;border-radius:50%;background:#d81f1a;color:#fff;display:flex;align-items:center;justify-content:center;padding-left:3px">▶</span></span>
+        </span>
+        <div class="body">
+          <div class="cat">Video</div>
+          <h3>TITULAR DE CONTENIDO 6</h3>
+          <p>Descripción breve de tu contenido. Edita este texto en el HTML.</p>
+          <div class="meta">1.2K vistas · hace 3 días</div>
+        </div>
+      </a>
+  </div>
+</div></section>
+</main>
+</main>
+<footer class="footer"><div class="container footer-grid">
+  <div>
+    <div class="logo-text">Al <b>Límite</b> <i>del Tiempo</i></div>
+    <p>Historias, videos y reels de la escena local. Producción independiente con mirada propia.</p>
+    <div class="footer-redes">
+      <a href="#">Ig</a><a href="#">Yt</a><a href="#">Tk</a><a href="#">X</a>
+    </div>
+  </div>
+  <div>
+    <h4>Secciones</h4>
+    <ul>
+      <li><a href="categoria-videos.html">Videos</a></li>
+      <li><a href="categoria-reels.html">Reels</a></li>
+      <li><a href="categoria-entrevistas.html">Entrevistas</a></li>
+      <li><a href="categoria-documentales.html">Documentales</a></li>
+      <li><a href="categoria-cronicas.html">Crónicas</a></li>
+      <li><a href="categoria-eventos.html">Eventos</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Contacto</h4>
+    <ul class="contacto">
+      <li><span class="ic">☎</span><a href="tel:+51964530260">964 530 260</a></li>
+      <li><span class="ic">✉</span><a href="mailto:hola@allimitedeltiempo.pe">hola@allimitedeltiempo.pe</a></li>
+      <li><span class="ic">●</span>Redes: <a href="#">@allimitedeltiempo</a></li>
+    </ul>
+  </div>
+</div><div class="container copy">
+  <span>© <span id="anio">2026</span> Al Límite del Tiempo — Todos los derechos reservados</span>
+  <span><a href="index.html">Inicio</a> · <a href="equipo.html">Equipo</a> · <a href="contacto.html">Contacto</a></span>
+</div></footer>
+<script src="app.js"></script>
+</body>
+</html>

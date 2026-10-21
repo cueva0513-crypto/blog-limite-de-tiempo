@@ -1,11 +1,97 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Equipo | TU LOGO</title><link rel="stylesheet" href="styles.css"></head>
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipo | Al Límite del Tiempo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<header class="header"><a class="logo-text" href="index.html">TU LOGO</a><nav class="nav" id="nav"><a href="trabajos.html">Trabajos</a><a href="equipo.html">Equipo</a><a href="premios.html">Premios</a><a href="academica.html">Académica</a><a href="contacto.html">Contacto</a></nav><button class="btn-menu" onclick="toggleMenu()">☰</button></header>
-<div class="cab-pagina"><h1>Equipo</h1><p><!-- EDITA -->Tu descripción del equipo.</p></div>
-<main class="container seccion seccion-oscura" style="margin-top:30px;border-radius:12px"><div class="grid-equipo">
-<div class="miembro"><img src="https://picsum.photos/seed/equipo1/500/500" alt=""><h3>NOMBRE<small>ROL</small></h3><p>TU BIO.</p><div class="links"><a href="#">Ln</a></div></div>
-<div class="miembro"><img src="https://picsum.photos/seed/equipo2/500/500" alt=""><h3>NOMBRE<small>ROL</small></h3><p>TU BIO.</p><div class="links"><a href="#">Tw</a></div></div>
-<div class="miembro"><img src="https://picsum.photos/seed/equipo3/500/500" alt=""><h3>NOMBRE<small>ROL</small></h3><p>TU BIO.</p><div class="links"><a href="#">Fb</a></div></div>
-<div class="miembro"><img src="https://picsum.photos/seed/equipo4/500/500" alt=""><h3>NOMBRE<small>ROL</small></h3><p>TU BIO.</p><div class="links"><a href="#">Ln</a></div></div>
-</div></main>
-<footer class="footer"><div class="container copy"><span>© 2026 TU NOMBRE</span><span><a href="index.html">Inicio</a></span></div></footer><script src="app.js"></script></body></html>
+<header class="header">
+  <a class="logo" href="index.html"><span class="logo-text">Al <b>Límite</b><br><i>del Tiempo</i></span></a>
+  <nav class="nav" id="nav">
+    <div class="dropdown">
+      <a href="categorias.html">Categorías ▾</a>
+      <div class="dropdown-menu">
+        <a href="categoria-videos.html">Videos</a>
+        <a href="categoria-reels.html">Reels</a>
+        <a href="categoria-entrevistas.html">Entrevistas</a>
+        <a href="categoria-documentales.html">Documentales</a>
+        <a href="categoria-cronicas.html">Crónicas</a>
+        <a href="categoria-eventos.html">Eventos</a>
+      </div>
+    </div>
+    <a href="equipo.html">Equipo</a>
+    <a href="premios.html">Premios</a>
+    <a href="academica.html">Académica</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="social"><a href="#">Ig</a><a href="#">Yt</a><a href="#">Tk</a></div>
+  <button class="btn-menu" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="cab-pagina">
+  <h1>El <span>equipo</span></h1>
+  <p>Quiénes están detrás de Al Límite del Tiempo.</p>
+</div>
+
+<main class="container">
+  <div class="container"><div class="breadcrumb"><a href="index.html">Inicio</a> / Equipo</div></div>
+  <section class="seccion seccion-oscura" style="margin-top:26px;border-radius:14px;padding:50px 30px"><div class="grid-equipo">
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/eq1/500/500" alt="">
+      <h3>NOMBRE<small>Rol</small></h3>
+      <p>TU BIO AQUÍ. Escribe 2-3 líneas sobre esta persona.</p>
+      <div class="links"><a href="#">Ln</a><a href="#">Ig</a></div>
+    </div>
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/eq2/500/500" alt="">
+      <h3>NOMBRE<small>Rol</small></h3>
+      <p>TU BIO AQUÍ.</p>
+      <div class="links"><a href="#">Tw</a><a href="#">Yt</a></div>
+    </div>
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/eq3/500/500" alt="">
+      <h3>NOMBRE<small>Rol</small></h3>
+      <p>TU BIO AQUÍ.</p>
+      <div class="links"><a href="#">Ig</a></div>
+    </div>
+    <div class="miembro">
+      <img src="https://picsum.photos/seed/eq4/500/500" alt="">
+      <h3>NOMBRE<small>Rol</small></h3>
+      <p>TU BIO AQUÍ.</p>
+      <div class="links"><a href="#">Ln</a></div>
+    </div>
+  </div></section>
+</main>
+
+<footer class="footer"><div class="container footer-grid">
+  <div>
+    <div class="logo-text">Al <b>Límite</b> <i>del Tiempo</i></div>
+    <p>Historias, videos y reels de la escena local. Producción independiente con mirada propia.</p>
+    <div class="footer-redes"><a href="#">Ig</a><a href="#">Yt</a><a href="#">Tk</a><a href="#">X</a></div>
+  </div>
+  <div>
+    <h4>Secciones</h4>
+    <ul>
+      <li><a href="categoria-videos.html">Videos</a></li>
+      <li><a href="categoria-reels.html">Reels</a></li>
+      <li><a href="categoria-entrevistas.html">Entrevistas</a></li>
+      <li><a href="categoria-documentales.html">Documentales</a></li>
+      <li><a href="categoria-cronicas.html">Crónicas</a></li>
+      <li><a href="categoria-eventos.html">Eventos</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Contacto</h4>
+    <ul class="contacto">
+      <li><span class="ic">☎</span><a href="tel:+51964530260">964 530 260</a></li>
+      <li><span class="ic">✉</span><a href="mailto:hola@allimitedeltiempo.pe">hola@allimitedeltiempo.pe</a></li>
+      <li><span class="ic">●</span>Redes: <a href="#">@allimitedeltiempo</a></li>
+    </ul>
+  </div>
+</div><div class="container copy">
+  <span>© <span id="anio">2026</span> Al Límite del Tiempo — Todos los derechos reservados</span>
+  <span><a href="index.html">Inicio</a> · <a href="equipo.html">Equipo</a> · <a href="contacto.html">Contacto</a></span>
+</div></footer>
+<script src="app.js"></script>
+</body>
+</html>

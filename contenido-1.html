@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TU CONTENIDO | Al Límite del Tiempo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html"><span class="logo-text">Al <b>Límite</b><br><i>del Tiempo</i></span></a>
+  <nav class="nav" id="nav">
+    <div class="dropdown">
+      <a href="categorias.html">Categorías ▾</a>
+      <div class="dropdown-menu">
+        <a href="categoria-videos.html">Videos</a>
+        <a href="categoria-reels.html">Reels</a>
+        <a href="categoria-entrevistas.html">Entrevistas</a>
+        <a href="categoria-documentales.html">Documentales</a>
+        <a href="categoria-cronicas.html">Crónicas</a>
+        <a href="categoria-eventos.html">Eventos</a>
+      </div>
+    </div>
+    <a href="equipo.html">Equipo</a>
+    <a href="premios.html">Premios</a>
+    <a href="academica.html">Académica</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="social"><a href="#">Ig</a><a href="#">Yt</a><a href="#">Tk</a></div>
+  <button class="btn-menu" onclick="toggleMenu()">☰</button>
+</header>
+
+<main class="container">
+  <div class="breadcrumb"><a href="index.html">Inicio</a> / <a href="categorias.html">Categorías</a> / TU CONTENIDO</div>
+
+  <article class="articulo">
+    <!-- ===== ESTRUCTURA BASE — EDITA CADA BLOQUE ===== -->
+    <div class="kicker">TU CATEGORÍA</div>
+    <!-- TITULO -->
+    <h1>TU TÍTULO AQUÍ</h1>
+    <!-- SUBTITULO -->
+    <p class="sub">TU SUBTÍTULO AQUÍ. Una o dos líneas que resuman el contenido.</p>
+    <div class="meta-info">
+      <div class="avatar">ALT</div>
+      <span><strong>Al Límite del Tiempo</strong> · TU CATEGORÍA · TU FECHA · 5 min</span>
+    </div>
+    <div class="compartir"><a href="#">Compartir</a><a href="#">Copiar enlace</a></div>
+
+    <!-- FOTO -->
+    <figure>
+      <img src="https://picsum.photos/seed/contenido-1/1200/675" alt="">
+      <figcaption>TU PIE DE FOTO. Créditos y fecha aquí.</figcaption>
+    </figure>
+
+    <!-- VIDEO YOUTUBE (opcional — borra este bloque si es solo texto) -->
+    <div class="embed-video">
+      <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Video" allowfullscreen></iframe>
+    </div>
+
+    <div class="cuerpo">
+      <!-- PARRAFO 1 -->
+      <h4>Párrafo 1</h4>
+      <p>Tu primer párrafo aquí. Cuéntanos el contexto, dónde y cuándo pasó.</p>
+      <!-- PARRAFO 2 -->
+      <h4>Párrafo 2</h4>
+      <p>Tu segundo párrafo. El desarrollo, los detalles que importan, las voces involucradas.</p>
+      <!-- PARRAFO 3 -->
+      <h4>Párrafo 3</h4>
+      <p>Tu tercer párrafo. El cierre del relato, qué viene después, por qué importa.</p>
+      <!-- CONCLUSION -->
+      <div class="conclusion">
+        <strong>Conclusión</strong>
+        <p>Tu conclusión aquí. El mensaje que te llevas de este contenido.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===== CARRUSEL antes del footer — enlaza a otros contenidos ===== -->
+  <div class="carrusel-wrap">
+    <div class="carrusel-head">
+      <h3>Más <span>contenido</span></h3>
+      <div class="carrusel-btns">
+        <button onclick="moverCarrusel('c1',-1)">←</button>
+        <button onclick="moverCarrusel('c1',1)">→</button>
+      </div>
+    </div>
+    <div class="carrusel" id="c1">
+      <a class="card-video" href="contenido-2.html">
+        <div class="thumb">
+          <img src="https://i.ytimg.com/vi/M7lc1UVf-VE/hqdefault.jpg" alt="">
+          <div class="play"><span>▶</span></div>
+          <div class="dur">08:15</div>
+        </div>
+        <div class="info"><div class="cat">Video</div><h4>TU CONTENIDO 2</h4><div class="meta">1.2K vistas · hace 3 días</div></div>
+      </a>
+      <a class="card-video" href="contenido-3.html">
+        <div class="thumb">
+          <img src="https://i.ytimg.com/vi/jNQXAC9IVRw/hqdefault.jpg" alt="">
+          <div class="play"><span>▶</span></div>
+          <div class="dur">21:03</div>
+        </div>
+        <div class="info"><div class="cat">Video</div><h4>TU CONTENIDO 3</h4><div class="meta">890 vistas · hace 1 semana</div></div>
+      </a>
+      <a class="card-reel" href="contenido-1.html">
+        <img src="https://picsum.photos/seed/reel-det/400/711" alt="">
+        <div class="ig reel">Reel</div>
+        <div class="veil"><h4>TU REEL</h4><div class="meta"><span class="views">▶ 12.4K</span> · hace 2 días</div></div>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer"><div class="container footer-grid">
+  <div>
+    <div class="logo-text">Al <b>Límite</b> <i>del Tiempo</i></div>
+    <p>Historias, videos y reels de la escena local. Producción independiente con mirada propia.</p>
+    <div class="footer-redes"><a href="#">Ig</a><a href="#">Yt</a><a href="#">Tk</a><a href="#">X</a></div>
+  </div>
+  <div>
+    <h4>Secciones</h4>
+    <ul>
+      <li><a href="categoria-videos.html">Videos</a></li>
+      <li><a href="categoria-reels.html">Reels</a></li>
+      <li><a href="categoria-entrevistas.html">Entrevistas</a></li>
+      <li><a href="categoria-documentales.html">Documentales</a></li>
+      <li><a href="categoria-cronicas.html">Crónicas</a></li>
+      <li><a href="categoria-eventos.html">Eventos</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Contacto</h4>
+    <ul class="contacto">
+      <li><span class="ic">☎</span><a href="tel:+51964530260">964 530 260</a></li>
+      <li><span class="ic">✉</span><a href="mailto:hola@allimitedeltiempo.pe">hola@allimitedeltiempo.pe</a></li>
+      <li><span class="ic">●</span>Redes: <a href="#">@allimitedeltiempo</a></li>
+    </ul>
+  </div>
+</div><div class="container copy">
+  <span>© <span id="anio">2026</span> Al Límite del Tiempo — Todos los derechos reservados</span>
+  <span><a href="index.html">Inicio</a> · <a href="equipo.html">Equipo</a> · <a href="contacto.html">Contacto</a></span>
+</div></footer>
+<script src="app.js"></script>
+</body>
+</html>
