@@ -29,8 +29,8 @@ ul{list-style:none}
 /* ===== HEADER / NAVBAR ===== */
 .header{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 28px;background:rgba(10,10,10,.62);backdrop-filter:blur(10px);color:#fff;transition:.3s}
 .header.scrolled{background:rgba(10,10,10,.95);padding:9px 28px;box-shadow:0 4px 24px rgba(0,0,0,.4)}
-.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.logo img{height:44px}
+.logo{display:flex;align-items:center;gap:11px;flex-shrink:0}
+.logo img{height:42px;width:auto;filter:drop-shadow(0 2px 8px rgba(0,0,0,.45))}
 .logo-text{font-weight:900;letter-spacing:1.5px;font-size:15px;line-height:1.1;text-transform:uppercase}
 .logo-text b{color:var(--rojo)}
 .logo-text i{font-style:normal;color:var(--amarillo)}
