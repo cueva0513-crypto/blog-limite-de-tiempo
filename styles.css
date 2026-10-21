@@ -43,7 +43,8 @@ ul{list-style:none}
 .dropdown-menu a{display:block;padding:11px 20px;font-size:13px;letter-spacing:.3px;border-left:3px solid transparent}
 .dropdown-menu a:hover{background:rgba(216,31,26,.15);border-left-color:var(--amarillo);color:var(--amarillo)}
 .social{display:flex;gap:8px;font-size:12px}
-.social a{width:34px;height:34px;border:1px solid rgba(255,255,255,.25);border-radius:50%;display:flex;align-items:center;justify-content:center;opacity:.85}
+.social a{width:34px;height:34px;border:1px solid rgba(255,255,255,.25);border-radius:50%;display:flex;align-items:center;justify-content:center;opacity:.85;transition:.2s}
+.social a svg{width:16px;height:16px;display:block}
 .social a:hover{background:var(--rojo);border-color:var(--rojo);opacity:1}
 .btn-menu{display:none;background:none;border:0;color:#fff;font-size:26px;cursor:pointer;line-height:1}
 
@@ -128,7 +129,8 @@ ul{list-style:none}
 .card-reel:hover{transform:translateY(-6px) scale(1.02);box-shadow:0 20px 46px rgba(0,0,0,.45)}
 .card-reel img{width:100%;height:100%;object-fit:cover}
 .card-reel .veil{position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.92));display:flex;flex-direction:column;justify-content:flex-end;padding:14px;color:#fff}
-.card-reel .ig{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.55);border-radius:99px;padding:5px 11px;font-size:10.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.card-reel .ig{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.55);border-radius:99px;padding:5px 11px;font-size:10.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;display:flex;align-items:center;gap:5px}
+.card-reel .ig svg{width:12px;height:12px;display:block}
 .card-reel .ig.reel{background:var(--rojo)}
 .card-reel .ig.tiktok{background:#111}
 .card-reel h4{font-size:14.5px;line-height:1.3;font-weight:800;margin-bottom:5px}
@@ -157,12 +159,9 @@ ul{list-style:none}
 .miembro h3 small{display:block;font-weight:500;color:var(--amarillo);font-size:12px;letter-spacing:1.2px;text-transform:uppercase;margin-top:4px}
 .miembro p{font-size:13px;color:#b9b9b9;padding:0 16px;margin:10px 0}
 .miembro .links{display:flex;gap:8px;justify-content:center;font-size:11.5px;margin-top:12px}
-.miembro .links a{border:1px solid #3a3a3a;border-radius:99px;padding:5px 12px;color:#ccc}
+.miembro .links a{border:1px solid #3a3a3a;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;color:#ccc;transition:.25s}
+.miembro .links a svg{width:15px;height:15px;display:block}
 .miembro .links a:hover{background:var(--rojo);border-color:var(--rojo);color:#fff}
-
-/* Premios */
-.premios-banner{display:flex;align-items:center;justify-content:center;gap:14px;background:#f6f6f6;border:1px dashed #ccc;border-radius:10px;padding:26px;font-size:19px;font-weight:800;text-align:center;transition:.25s}
-a.premios-banner:hover{border-color:var(--rojo);color:var(--rojo);transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.08)}
 
 /* Clientes */
 .grid-clientes{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
@@ -182,6 +181,7 @@ a.premios-banner:hover{border-color:var(--rojo);color:var(--rojo);transform:tran
 .footer .contacto a:hover{color:var(--amarillo)}
 .footer-redes{display:flex;gap:10px;margin-top:18px}
 .footer-redes a{width:38px;height:38px;border:1px solid #2e2e2e;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;transition:.25s}
+.footer-redes a svg{width:16px;height:16px;display:block}
 .footer-redes a:hover{background:var(--rojo);border-color:var(--rojo);color:#fff}
 .copy{border-top:1px solid #1e1e1e;margin-top:44px;padding:18px 0;font-size:12.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center}
 .copy a:hover{color:var(--amarillo)}
