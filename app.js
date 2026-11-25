@@ -60,4 +60,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
       if(n) n.classList.remove('movil');
     });
   });
+
+  // Cerrar el comic integrado con el boton X (parte superior izquierda)
+  document.querySelectorAll('.comic-close').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const c = b.closest('.comic');
+      const f = c ? c.querySelector('iframe') : null;
+      if(f) f.contentWindow.location.href = 'villanito.html';
+    });
+  });
 });
