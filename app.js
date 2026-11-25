@@ -46,6 +46,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
   ocultarFlechasInnecesarias();
 
+  // Comic interactivo: abrir en pantalla completa
+  const comic = document.querySelector('.comic');
+  if(comic) comic.classList.add('full');
+
   window.addEventListener('scroll', ()=>{
     parallaxScroll();
     headerScroll();
@@ -61,12 +65,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
   });
 
-  // Cerrar el comic integrado con el boton X (parte superior izquierda)
+  // Cerrar el comic con el boton X (sale del fullscreen al embed)
   document.querySelectorAll('.comic-close').forEach(b=>{
     b.addEventListener('click', ()=>{
       const c = b.closest('.comic');
-      const f = c ? c.querySelector('iframe') : null;
-      if(f) f.contentWindow.location.href = 'villanito.html';
+      if(c) c.classList.remove('full');
     });
   });
 });
